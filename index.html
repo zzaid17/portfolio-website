@@ -177,15 +177,18 @@
 <div id="contact">
     <h1 class ="sub-title">Contact Me</h1>
     <div class="contact">
-      <form>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+      <form action="" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="6" placeholder="Your Message"></textarea>
         <button type="submit" class="btn btn2">Submit</button>
       </form>
   </div>
 </div>
 
-    
+<!-- Include Firebase Script -->
+<script type="module" src="mail.js"></script>
+<script src="test.js"></script>
+
 </body>
 </html>
